@@ -1,0 +1,17 @@
+.overCaption{
+    background-color: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: .5s;
+}
+.overCaption:hover{
+    opacity: 1;
+}
+.overLay{
+    overflow: hidden; 
+}
+.scale{
+    transition: transform .5s;
+}
+.overLay:hover .scale{
+    transform: scale(1.2);
+}
